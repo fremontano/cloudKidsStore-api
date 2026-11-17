@@ -10,6 +10,9 @@ node_modules/
 dist/
 build/
 
+# Archivos subidos por los usuarios
+uploads/
+
 # Logs
 *.log
 npm-debug.log*

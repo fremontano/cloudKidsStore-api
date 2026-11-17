@@ -69,13 +69,20 @@ const productSchema = new Schema(
       trim: true,
     },
 
+    // Codigo hexadecimal para mostrar el color en la interfaz.
+    colorHex: {
+      type: String,
+      trim: true,
+      default: "#94A3B8",
+    },
+
     description: {
       type: String,
       required: true,
       trim: true,
     },
 
-    // Características adicionales del producto.
+    // Caracteristicas adicionales del producto.
     details: {
       type: [String],
       default: [],
